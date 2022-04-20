@@ -44,7 +44,7 @@
             $mensaje = $_POST['areaMessage'];
             $mensaje = filter_var($mensaje, FILTER_SANITIZE_STRING);
             
-            $secret_key = "6LdizV0eAAAAAIAj9gbSX09TqHhik4OH-au8Fy6k";
+            $secret_key = "";
             
             $response = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret_key.'&response='.$_POST['g-recaptcha-response']);
 
@@ -70,12 +70,12 @@
                 // Servidor SMTP
                 $mail->Host  = 'mail.repcom.com.mx';
                 // Usuario SMTP
-                $mail->Username  = 'leads@repcom.com.mx';
+                $mail->Username  = '';
                 // Contraseña SMTP
-                $mail->Password  = 'Repcom2022';
+                $mail->Password  = '';
     
                 //Indicamos cual es nuestra dirección de correo y el nombre que queremos que vea el usuario que lee nuestro correo
-                $mail->From = "md@repcom.com.mx";
+                $mail->From = "";
                 $mail->FromName = "REPCOM";
     
                 // tls ir for Gmail and ssl is for hosting
@@ -88,10 +88,10 @@
     
                 // Destinatarios
                 // Destinatario directo
-                $mail->addAddress('md@repcom.com.mx', 'Victor Avendaño');
-                $mail->addAddress('alejandrac@repcom.com.mx', 'Alejandra Carretero');
-                $mail->addAddress('mkt@repcom.com.mx', 'Marketing Digital');
-                $mail->addAddress('ventas@repcomhs.mx', 'Tanairy Fernandez');
+                $mail->addAddress('', '');
+                $mail->addAddress('', '');
+                $mail->addAddress('', '');
+                $mail->addAddress('', '');
                 // Destinatario copia
                 //$mail->addCC('copiado@hotmail.com', '');
     
