@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: https://contacto.repcom.com.mx/sitemap.xml

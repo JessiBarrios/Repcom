@@ -1,0 +1,22 @@
+/* TEAM */
+    Front End: Jessica Barrios Pérez
+	E-mail: barriosperezjessica [at] gmail.com
+	From: Cancún, Quintana Roo, México
+
+    Web designer: Víctor Avendaño Zayas
+	E-mail: victor.prodesign [at] hotmail.com
+            victorvalvatorez [at] gmail.com
+	From: Cancún, Quintana Roo, México
+
+/* SITE */
+	Last update: 13/02/2022
+	Language: Spanish
+	Doctype: HTML5
+    	Standards: HTML5, CSS3, Javascript, PHP
+    	Components: Bootstrap4, JQuery
+	IDE: Visual Studio Code, Photoshop
+
+====================================================================================================
+
+What is this?
+http://humanstxt.org/

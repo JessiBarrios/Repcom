@@ -1,0 +1,429 @@
+/* - TEXTO - */
+
+/* Tipografía */
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+/* Colores de texto */
+.text-red{
+    color: #a5112c !important;
+}
+
+/* - PUNTERO - */
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* - ESPACIADOS - */
+
+/* Top */
+.t-0{
+    top: 0;
+}
+/* Margenes */
+.my-6{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+/* Padding */
+.py-6{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+/* - TAMAÑOS - */
+
+/* Width */
+.w-60{
+    width: 60px;
+}
+.w-46{
+    width: 46px;
+}
+.w-34{
+    width: 34px;
+}
+.w-95{
+    width: 95px;
+}
+
+/* Height */
+.h-60{
+    height: 60px;
+}
+.h-46{
+    height: 46px;
+}
+.h-34{
+    height: 34px;
+}
+.h-10{
+    height: 10rem;
+}
+.h-55{
+    height: 46px;
+}
+.h-600{
+    height: 650px;
+}
+.h-inherit{
+    height: inherit;
+}
+
+/* - FONDOS - */
+/* Íconos */
+.bg-img-social{
+    background-image: url("https://contacto.repcom.com.mx//img/iconos-sociales.webp");
+    background-repeat: no-repeat;
+}
+.bg-img-productos{
+    background-image: url("https://contacto.repcom.com.mx//img/iconos-productos.webp");
+    background-repeat: no-repeat;
+}
+.bg-img-hoteles{
+    background-image: url("https://contacto.repcom.com.mx//img/iconos-hoteles.webp");
+    background-repeat: no-repeat;
+}
+/* Imágenes */
+.bg-img-cama1{
+    background-image: url("https://contacto.repcom.com.mx//img/renovacion-de-habitaciones-para-hoteles-repcom-1D.webp");
+}
+.bg-img-cama2{
+    background-image: url("https://contacto.repcom.com.mx//img/renovacion-de-habitaciones-para-hoteles-repcom-2D.webp");
+}
+.bg-img-cama3{
+    background-image: url("https://contacto.repcom.com.mx//img/renovacion-de-habitaciones-para-hoteles-repcom-3D.webp");
+}
+.bg-img-cama1,
+.bg-img-cama2,
+.bg-img-cama3{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* Colores de fondo */
+.bg-red{
+    background-color: #8b162b !important;
+}
+.bg-deep-red{
+    background-color: #891127 !important;
+}
+.bg-medium-red{
+    background-color: #a5112c !important;
+}
+.bg-gray{
+    background-color: #ebebeb;
+}
+
+/* - POSICIONES - */
+.z-index-10{
+    z-index: 10;
+}
+.position-logo-top{
+    background-position: -10px -648px;
+}
+.position-calidad{
+    background-position: -3px -10px;
+}
+.position-servicio{
+    background-position: -59px -10px;
+}
+.position-tiempo{
+    background-position: -122px -10px;
+}
+.position-whatsapp{
+    background-position: -184px -10px;
+}
+.position-tel{
+    background-position: -247px -10px;
+}
+.position-facebook{
+    background-position: -310px -23px;
+}
+.position-instagram{
+    background-position: -350px -23px;
+}
+.position-in{
+    background-position: -390px -23px;
+}
+.position-sabanas{
+    background-position: -10px -10px;
+}
+.position-almohadas{
+    background-position: -10px -64px;
+}
+.position-fundas{
+    background-position: -10px -119px;
+}
+.position-protectores{
+    background-position: -10px -173px;
+}
+.position-frazadas{
+    background-position: -10px -226px;
+}
+.position-duvet{
+    background-position: -10px -280px;
+}
+.position-cortinas{
+    background-position: -10px -334px;
+}
+.position-persianas{
+    background-position: -10px -386px;
+}
+.position-cojines{
+    background-position: -10px -439px;
+}
+.position-tapiceria{
+    background-position: -10px -489px;
+}
+.position-retapizado{
+    background-position: -10px -541px;
+}
+.position-toallas{
+    background-position: -10px -597px;
+}
+.position-batas{
+    background-position: -10px -648px;
+}
+.position-amresorts{
+    background-position: -5px -1px;
+}
+.position-barcelo{
+    background-position: -102px -1px;
+}
+.position-cid{
+    background-position: -201px -1px;
+}
+.position-holliday{
+    background-position: -293px -1px;
+}
+.position-hyatt{
+    background-position: -389px -1px;
+}
+.position-krystal{
+    background-position: -487px -1px;
+}
+.position-oasis{
+    background-position: -582px -1px;
+}
+.position-palladium{
+    background-position: -677px -1px;
+}
+.position-paradisus{
+    background-position: -773px -1px;
+}
+.position-royal{
+    background-position: -871px -6px;
+}
+.position-princess{
+    background-position: -966px -1px;
+}
+.position-trs{
+    background-position: -1062px  -1px;
+}
+
+/* - ELEMENTOS - */
+.carousel-indicators li{
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rounded-circle,
+.card {
+    border-radius: 15px !important;
+}
+dt{
+    font-weight: 600 !important;
+}
+body,
+header{
+    min-width: 320px;
+}
+hr{
+    transform: rotate(270deg);height: 1px;
+    width: 71px;
+}
+#contactos .btn-link{
+    text-decoration: none;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+#modalGaleria .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a5112c' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+#modalGaleria .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a5112c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.form-control-sm{
+    font-size: .9rem !important;
+}
+
+/* - HOVER - */
+/* Sombras */
+#galeria img:hover,
+#contactos #whatsapp:hover,
+#contactos #telefono:hover{
+    box-shadow: 0 0px 0px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    transition: .4s;
+}
+.position-amresorts:hover{
+    background-position: -5px -48px;
+}
+.position-barcelo:hover{
+    background-position: -102px -48px;
+}
+.position-cid:hover{
+    background-position: -201px -48px;
+}
+.position-holliday:hover{
+    background-position: -293px -48px;
+}
+.position-hyatt:hover{
+    background-position: -389px -48px;
+}
+.position-krystal:hover{
+    background-position: -487px -48px;
+}
+.position-oasis:hover{
+    background-position: -582px -48px;
+}
+.position-palladium:hover{
+    background-position: -677px -48px;
+}
+.position-paradisus:hover{
+    background-position: -773px -48px;
+}
+.position-royal:hover{
+    background-position: -871px -53px;
+}
+.position-princess:hover{
+    background-position: -966px -48px;
+}
+.position-trs:hover{
+    background-position: -1062px  -48px;
+}
+/* Decoración de texto */
+a:hover {
+    text-decoration: none !important;
+}
+
+/* FOCUS */
+.btn:focus {
+    box-shadow: 0 0 0 0rem rgba(255, 255, 255, 0.25) !important;
+}
+
+/* - MEDIAS - */
+@media screen and (max-width: 1000px){
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .btn-lg {
+        font-size: 1rem;
+    }
+    #productosHabitaciones .mt,
+    #productosDecorativos .mt,
+    #productosBanos .mt,
+    #distintivoM .mt,
+    #referencias .mt{
+        margin-top: 3rem !important;
+    }
+    #distintivoM{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 991px){
+    #referencias .mx-3{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .position-amresorts{
+        background-position: -5px -48px;
+    }
+    .position-barcelo{
+        background-position: -102px -48px;
+    }
+    .position-cid{
+        background-position: -201px -48px;
+    }
+    .position-holliday{
+        background-position: -293px -48px;
+    }
+    .position-hyatt{
+        background-position: -389px -48px;
+    }
+    .position-krystal{
+        background-position: -487px -48px;
+    }
+    .position-oasis{
+        background-position: -582px -48px;
+    }
+    .position-palladium{
+        background-position: -677px -48px;
+    }
+    .position-paradisus{
+        background-position: -773px -48px;
+    }
+    .position-royal{
+        background-position: -871px -53px;
+    }
+    .position-princess{
+        background-position: -966px -48px;
+    }
+    .position-trs{
+        background-position: -1062px  -48px;
+    }
+}
+@media screen and (max-width: 767px){
+    #contactos .col-lg-4 {
+        padding: 1rem !important;
+    }
+    hr{
+        transform: rotate(180deg);
+    }
+    footer .bg-red{
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+@media screen and (max-width: 575px){
+    #productosHabitaciones .col-sm-8,
+    #productosDecorativos .col-sm-8,
+    #productosBanos .col-sm-8{
+        text-align: center;
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    #seccionCalidad .mt{
+        margin-bottom: 1rem !important;
+    }
+    .bg-img-cama1{
+        background-image: url("https://contacto.repcom.com.mx//img/renovacion-de-habitaciones-para-hoteles-repcom-1M.webp");
+    }
+    .bg-img-cama2{
+        background-image: url("https://contacto.repcom.com.mx//img/renovacion-de-habitaciones-para-hoteles-repcom-2M.webp");
+    }
+    .bg-img-cama3{
+        background-image: url("https://contacto.repcom.com.mx//img/renovacion-de-habitaciones-para-hoteles-repcom-3M.webp");
+    }
+}
+@media screen and (max-width: 400px){
+    .display-4{
+        font-size: 2rem;
+    }
+    .h3{
+        font-size: 1.6rem;
+    }
+    .h4{
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 576px){
+    #modalGaleria .modal-dialog {
+        max-width: 100%;
+    }
+}
